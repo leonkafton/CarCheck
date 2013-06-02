@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	font-family: Masque;
+}
+header#main {
+	background-color: #000;
+	height: 64px;
+}
+header#main a.logo {
+	position: fixed;
+	top: 5px;
+	left: 8px;
+	z-index: 1;
+}
+img.car-thumbnails {
+	width: 200px;
+	height: 175px;
+	border: 2px solid #610a0a;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+}
+nav {
+	float: left;
+	width: 15%;
+	background-color: #636363;
+	position: fixed;
+	top: 64px;
+	left: 0;
+	bottom: 0;
+}
+nav ul {
+	margin: 0;
+	list-style: none;
+	color: #FF6600;
+	font-size: 2em;
+}
+nav ul p {
+	margin: 0;
+	font-weight: bold;
+}
+nav ul a {
+	color: #FF6600;
+}
+section#main {
+	float: left;
+	width: 75%;
+	margin-left: 15%;
+	margin-top: 90px
+}
+h1 {
+	color: #ff6600;
+	border: 1px solid #000;
+	margin-top: 0;
+	position: fixed;
+	border-right-width: 984px;
+	margin-left: 119px;
+}
