@@ -3,14 +3,17 @@ body {
 	font-family: Masque;
 }
 header#main {
+	position: fixed;
 	background-color: #000;
-	height: 64px;
+	height: 75px;
+	width: 100%;
+	z-index: 2;
 }
 header#main a.logo {
-	position: fixed;
 	top: 5px;
 	left: 8px;
 	z-index: 1;
+	position: absolute;
 }
 img.car-thumbnails {
 	width: 200px;
@@ -29,30 +32,37 @@ nav {
 	left: 0;
 	bottom: 0;
 }
+nav header h2 {
+	margin-top: 50px;
+	font-family: Masque;
+	font-size: 2em;
+}
 nav ul {
 	margin: 0;
 	list-style: none;
 	color: #FF6600;
-	font-size: 2em;
+	font-size: 30px;
+	font-family: Masque;
 }
 nav ul p {
 	margin: 0;
 	font-weight: bold;
+	font-family: Masque;
 }
 nav ul a {
 	color: #FF6600;
+	font-family: Masque;
 }
 section#main {
 	float: left;
-	width: 75%;
-	margin-left: 15%;
+	width: 80%;
+	margin-left: 270px;
 	margin-top: 90px
 }
-h1 {
+header h1 {
 	color: #ff6600;
-	border: 1px solid #000;
-	margin-top: 0;
-	position: fixed;
-	border-right-width: 984px;
-	margin-left: 119px;
+	margin-top: 10px;
+	margin-left: 120px;
+	font-size: 3em
+	font-family: Masque;
 }
